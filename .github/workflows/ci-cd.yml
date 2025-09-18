@@ -45,5 +45,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ https://github.com/blackangel52/prakt_git_devops1 }}/my-python-app:latest
-            ghcr.io/${{ github.repository_owner }}/my-python-app:${{github.sha}}
+            ghcr.io/prakt_git_devops1/my-python-app:latest
+            ghcr.io/prakt_git_devops1/my-python-app:${{github.sha}}
